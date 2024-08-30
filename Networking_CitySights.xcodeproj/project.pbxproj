@@ -11,6 +11,7 @@
 		F120E32B2C3C857500C56CDE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F120E32A2C3C857500C56CDE /* ContentView.swift */; };
 		F120E32D2C3C857700C56CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F120E32C2C3C857700C56CDE /* Assets.xcassets */; };
 		F120E3302C3C857700C56CDE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F120E32F2C3C857700C56CDE /* Preview Assets.xcassets */; };
+		F1E454982C803121004A1092 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1E454972C803121004A1092 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		F120E32A2C3C857500C56CDE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F120E32C2C3C857700C56CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F120E32F2C3C857700C56CDE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F1E454972C803121004A1092 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		F120E3272C3C857500C56CDE /* Networking_CitySights */ = {
 			isa = PBXGroup;
 			children = (
+				F1E454972C803121004A1092 /* DataService.swift */,
 				F120E3282C3C857500C56CDE /* Networking_CitySightsApp.swift */,
 				F120E32A2C3C857500C56CDE /* ContentView.swift */,
 				F120E32C2C3C857700C56CDE /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1E454982C803121004A1092 /* DataService.swift in Sources */,
 				F120E32B2C3C857500C56CDE /* ContentView.swift in Sources */,
 				F120E3292C3C857500C56CDE /* Networking_CitySightsApp.swift in Sources */,
 			);
